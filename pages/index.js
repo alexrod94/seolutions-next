@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Link from "next/link";
+import Footer from "../components/Footer";
 
 export default function index() {
   return (
@@ -17,65 +19,27 @@ export default function index() {
             <div className="w-auto">
               <div className="flex flex-wrap items-center">
                 <div className="w-auto mr-14">
-                  <a href="#">
+                  <Link href="/">
                     <img
                       src="gradia-assets/logos/gradia-name-white.svg"
                       alt=""
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="w-auto hidden lg:block">
               <ul className="flex items-center mr-10">
                 <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
-                  <a href="#">Features</a>
+                  <Link href="/">Start Here</Link>
                 </li>
                 <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
-                  <a href="#">Solutions</a>
+                  <Link href="/services">Services</Link>
                 </li>
                 <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
-                  <a href="#">Resources</a>
-                </li>
-                <li className="font-heading text-white hover:text-gray-200 text-lg">
-                  <a href="#">Pricing</a>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
-            </div>
-            <div className="w-auto">
-              <div className="flex flex-wrap items-center">
-                <div className="w-auto hidden lg:block">
-                  <button className="font-heading block py-3.5 px-5 uppercase text-xs tracking-px text-white font-bold bg-white bg-opacity-20 hover:bg-opacity-10 transition ease-in rounded-10">
-                    Start Free Trial
-                  </button>
-                </div>
-                <div className="w-auto lg:hidden">
-                  <a href="#">
-                    <svg
-                      className="navbar-burger text-gray-800"
-                      width="51"
-                      height="51"
-                      viewBox="0 0 56 56"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        width="56"
-                        height="56"
-                        rx="28"
-                        fill="currentColor"
-                      ></rect>
-                      <path
-                        d="M37 32H19M37 24H19"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
           <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
@@ -982,152 +946,7 @@ export default function index() {
           />
         </div>
       </section>
-
-      <section className="relative py-24 overflow-hidden">
-        <img
-          className="absolute bottom-0 left-0"
-          src="gradia-assets/elements/footers/radial.svg"
-          alt=""
-        />
-        <div className="relative z-10 container mx-auto px-4">
-          <div className="flex flex-wrap -m-6">
-            <div className="w-full md:w-1/2 lg:w-5/12 p-6">
-              <div className="flex flex-col justify-between h-full">
-                <div>
-                  <img
-                    className="mb-16"
-                    src="gradia-assets/logos/gradia-name-black.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="mb-4 font-heading font-medium text-base">
-                    The boldest SaaS kit in the market.
-                  </p>
-                  <p className="text-gray-600 text-sm">
-                    © Copyright 2022. All Rights Reserved by Gradia.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-2/12 p-6">
-              <div className="h-full">
-                <h3 className="mb-9 font-heading font-semibold text-xs text-gray-500 uppercase tracking-px">
-                  Company
-                </h3>
-                <ul>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Affiliate Program
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Press Kit
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-2/12 p-6">
-              <div className="h-full">
-                <h3 className="mb-9 font-heading font-semibold text-xs text-gray-500 uppercase tracking-px">
-                  Support
-                </h3>
-                <ul>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Account
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Help
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Customer Support
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-3/12 p-6">
-              <div className="h-full">
-                <h3 className="mb-9 font-heading font-semibold text-xs text-gray-500 uppercase tracking-px">
-                  Legals
-                </h3>
-                <ul>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Terms &amp; Conditions
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="font-heading font-medium text-base text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Licensing
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Footer />
     </>
   );
 }
