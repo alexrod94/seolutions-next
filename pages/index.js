@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Hero from "./home-components/Hero";
 import Features from "./home-components/Features";
 import Faq from "./home-components/Faq";
+import Intro from "./home-components/Intro";
 
 export default function index() {
   return (
@@ -16,6 +17,7 @@ export default function index() {
         />
       </Head>
       <Hero />
+      <Intro />
       <Features />
 
       <section className="relative pt-28 pb-32 overflow-hidden">

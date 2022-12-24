@@ -9,7 +9,7 @@ export default function Hero() {
         <MobileHeader />
       </section>
       <div className="relative z-10 container mx-auto px-4">
-        <div className="flex flex-wrap justify-center items-center pt-32">
+        <div className="flex flex-wrap justify-center items-center pt-8 md:pt-32">
           <div className="w-auto">
             <h1 className="mb-4 font-heading text-center text-white text-6xl md:text-7xl font-bold">
               Free guide: "Unlimited leads for your SEO agency"
@@ -39,7 +39,7 @@ export default function Hero() {
       </div>
       <div className="mt-5 pb-8">
         <img
-          className="mx-auto w-3/5"
+          className="mx-auto w-full md:w-3/5"
           src="/gradia-assets/images/hero/lead-results-transformed.png"
           alt=""
         />
