@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section className="bg-indigo-500">
+    <section className="bg-indigo-500 hidden md:block">
       <div className="flex items-center justify-between px-8 py-5">
         <div className="w-auto">
           <div className="flex flex-wrap items-center">

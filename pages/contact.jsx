@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import MobileHeader from "../components/MobileHeader";
 
 export default function contact() {
   const handleSubmit = (event) => {
@@ -13,6 +14,7 @@ export default function contact() {
   return (
     <>
       <Header />
+      <MobileHeader />
       <section className="relative z-10 container mx-auto px-4 bg-indigo-500">
         <div className="flex flex-wrap justify-center items-center py-16">
           <div className="w-auto">
