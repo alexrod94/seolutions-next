@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MobileMenu({ closeMenu }) {
   return (
     <div className="navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
@@ -38,57 +40,30 @@ export default function MobileMenu({ closeMenu }) {
           <div className="flex flex-col justify-center py-8 w-full">
             <ul>
               <li className="mb-12">
-                <a
+                <Link
                   className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                  href="#"
+                  href="/"
                 >
-                  Features
-                </a>
+                  Start Here
+                </Link>
               </li>
               <li className="mb-12">
-                <a
+                <Link
                   className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                  href="#"
+                  href="/services"
                 >
-                  Solutions
-                </a>
+                  Services
+                </Link>
               </li>
               <li className="mb-12">
-                <a
+                <Link
                   className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                  href="#"
+                  href="/contact"
                 >
-                  Resources
-                </a>
-              </li>
-              <li>
-                <a
-                  className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                  href="#"
-                >
-                  Pricing
-                </a>
+                  Contact
+                </Link>
               </li>
             </ul>
-          </div>
-          <div className="flex flex-col justify-end w-full">
-            <div className="flex flex-wrap">
-              <div className="w-full">
-                <button className="p-0.5 font-heading block w-full text-lg text-gray-900 font-medium rounded-10">
-                  <div className="py-2 px-5 rounded-10">
-                    <p>Login</p>
-                  </div>
-                </button>
-              </div>
-              <div className="w-full">
-                <button className="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-cyan-400 overflow-hidden rounded-10">
-                  <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-cyan-400 transition ease-in-out duration-500"></div>
-                  <div className="py-2 px-5 bg-white rounded-lg">
-                    <p className="relative z-10">Start Free Trial</p>
-                  </div>
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </nav>

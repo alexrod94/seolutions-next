@@ -10,7 +10,7 @@ export default function MobileHeader() {
   }
 
   return (
-    <section className="md:hidden flex justify-between px-8 py-5">
+    <section className="md:hidden flex justify-between px-8 py-5 bg-indigo-500 border-none">
       <div className="w-auto">
         <div className="flex flex-wrap items-center">
           <div className="w-auto mr-14">
