@@ -67,7 +67,7 @@ export default function Intro() {
             </ul>
           </div>
           {/* Second Section */}
-          <div className="flex items-center w-full">
+          <div className="flex items-center w-full mb-12">
             <div className="w-full lg:w-1/2 p-6 items-center">
               <div className="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
                 <img

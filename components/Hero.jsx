@@ -37,7 +37,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="mt-5 pb-8">
+      <div className="">
         <img
           className="mx-auto w-full md:w-3/5"
           src="/gradia-assets/images/hero/lead-results-transformed.png"

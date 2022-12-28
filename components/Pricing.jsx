@@ -20,12 +20,12 @@ export default function Pricing() {
           <div className="w-full md:w-1/3 p-7">
             <div className="h-full p-8 border border-gray-800 rounded-10">
               <div className="flex flex-wrap justify-between border-b border-gray-800 pb-7 mb-7">
-                <div className="w-full xl:w-auto">
+                <div className="w-full">
                   <h3 className="font-heading font-bold text-2xl text-white text-center">
                     Do It Yourself
                   </h3>
                 </div>
-                <div className="w-full xl:w-auto">
+                <div className="w-full">
                   <h3 className="mb-0.5 font-heading font-bold text-center text-2xl text-white">
                     $197/m
                   </h3>
@@ -87,12 +87,12 @@ export default function Pricing() {
             <div className="h-full p-0.5 bg-gradient-cyan2 border border-gray-800 rounded-10">
               <div className="p-8 bg-white rounded-10">
                 <div className="flex flex-wrap justify-between border-b border-gray-200 pb-7 mb-7">
-                  <div className="w-full xl:w-auto">
+                  <div className="w-full">
                     <h3 className="font-heading font-bold text-2xl text-center text-gray-900">
                       Managed Service
                     </h3>
                   </div>
-                  <div className="w-full xl:w-auto text-center">
+                  <div className="w-full text-center">
                     <h3 className="mb-0.5 font-heading font-bold text-2xl text-gray-900">
                       $597/m
                     </h3>
@@ -155,12 +155,12 @@ export default function Pricing() {
           <div className="w-full md:w-1/3 p-7">
             <div className="h-full p-8 border border-gray-800 rounded-10">
               <div className="flex flex-wrap justify-between border-b border-gray-800 pb-7 mb-7">
-                <div className="w-full xl:w-auto">
+                <div className="w-full">
                   <h3 className="font-heading font-bold text-2xl text-white text-center">
                     Fully Automated
                   </h3>
                 </div>
-                <div className="w-full xl:w-auto">
+                <div className="w-full">
                   <h3 className="mb-0.5 font-heading font-bold text-center text-2xl text-white">
                     $997/m
                   </h3>
