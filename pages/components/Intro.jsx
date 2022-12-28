@@ -2,7 +2,7 @@ export default function Intro() {
   return (
     <section className="relative py-8 md:py-16 overflow-hidden">
       <div className="container mx-auto px-4 w-full md:w-4/5">
-        <div className="flex flex-wrap -m-6">
+        <div className="flex flex-wrap -m-6 items-center">
           <div className="w-full lg:w-1/2 p-6">
             <div className="lg:max-w-lg">
               <h2 className="mb-6 font-heading text-center md:text-left font-bold text-4xl text-gray-900">
@@ -29,7 +29,7 @@ export default function Intro() {
             <div className="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
               <img
                 className="relative top-10 mx-auto transform hover:-translate-y-16 transition ease-in-out duration-500"
-                src="gradia-assets/images/features/dropdown.png"
+                src="gradia-assets/images/intro/1.png"
                 alt=""
               />
             </div>
@@ -67,34 +67,36 @@ export default function Intro() {
             </ul>
           </div>
           {/* Second Section */}
-          <div className="w-full lg:w-1/2 p-6">
-            <div className="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
-              <img
-                className="relative top-10 mx-auto transform hover:-translate-y-16 transition ease-in-out duration-500"
-                src="gradia-assets/images/features/dropdown.png"
-                alt=""
-              />
+          <div className="flex items-center w-full">
+            <div className="w-full lg:w-1/2 p-6 items-center">
+              <div className="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
+                <img
+                  className="relative top-10 mx-auto transform hover:-translate-y-16 transition ease-in-out duration-500"
+                  src="gradia-assets/images/intro/04.png"
+                  alt=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-full lg:w-1/2 p-6">
-            <div className="lg:max-w-lg">
-              <h2 className="mb-6 font-heading text-center md:text-left font-bold text-4xl text-gray-900">
-                Wouldn't it be nice if leads flooded your inbox day after day?
-              </h2>
-              <p className="mb-5 text-base text-gray-600">
-                Unfortunately, learning how to properly do email marketing can
-                be daunting and difficult. You may have some time to figure out
-                the ins and outs of cold emails, but that means taking away
-                hours from other tasks such as working on systems for your
-                services or taking care of your business.
-              </p>
-              <p className="mb-20 text-base text-gray-600">
-                That's why we are here to lend a helping hand. Our experienced
-                team has spent over 7 years immersed in online marketing, so you
-                can reap the benefits of our expertise while growing your online
-                presence and income. If you want to scale your SEO agency, we're
-                here for you.
-              </p>
+            <div className="w-full lg:w-1/2 p-6">
+              <div className="lg:max-w-lg">
+                <h2 className="mb-6 font-heading text-center md:text-left font-bold text-4xl text-gray-900">
+                  Wouldn't it be nice if leads flooded your inbox day after day?
+                </h2>
+                <p className="mb-5 text-base text-gray-600">
+                  Unfortunately, learning how to properly do email marketing can
+                  be daunting and difficult. You may have some time to figure
+                  out the ins and outs of cold emails, but that means taking
+                  away hours from other tasks such as working on systems for
+                  your services or taking care of your business.
+                </p>
+                <p className="mb-20 text-base text-gray-600">
+                  That's why we are here to lend a helping hand. Our experienced
+                  team has spent over 7 years immersed in online marketing, so
+                  you can reap the benefits of our expertise while growing your
+                  online presence and income. If you want to scale your SEO
+                  agency, we're here for you.
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Faq from "./components/Faq";
 import Intro from "./components/Intro";
 import Pricing from "./components/Pricing";
 import CTA from "./components/CTA";
+import Testimonials from "./components/Testimonials";
 
 export default function index() {
   return (
@@ -22,6 +23,7 @@ export default function index() {
       <Pricing />
       <CTA />
       <Faq />
+      <Testimonials />
       <Footer />
     </>
   );
