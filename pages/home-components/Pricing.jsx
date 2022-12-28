@@ -88,16 +88,16 @@ export default function Pricing() {
               <div className="p-8 bg-white rounded-10">
                 <div className="flex flex-wrap justify-between border-b border-gray-200 pb-7 mb-7">
                   <div className="w-full xl:w-auto">
-                    <h3 className="font-heading font-bold text-2xl text-gray-900">
-                      Premium
+                    <h3 className="font-heading font-bold text-2xl text-center text-gray-900">
+                      Managed Service
                     </h3>
                   </div>
                   <div className="w-full xl:w-auto xl:text-right">
                     <h3 className="mb-0.5 font-heading font-bold text-2xl text-gray-900">
-                      $59/m
+                      $597/m
                     </h3>
-                    <p className="text-sm text-gray-400">
-                      (per user per month)
+                    <p className="text-base mt-5 text-black text-center">
+                      You'll receive leads directly on your inbox
                     </p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Pricing() {
                       src="gradia-assets/elements/pricing/checkbox.svg"
                       alt=""
                     />
-                    <p>100GB Cloud Storage</p>
+                    <p>Set up of all the needed tools & accounts</p>
                   </li>
                   <li className="flex items-center font-heading mb-4 font-medium text-base text-gray-900">
                     <img
@@ -116,7 +116,7 @@ export default function Pricing() {
                       src="gradia-assets/elements/pricing/checkbox.svg"
                       alt=""
                     />
-                    <p>1 Website</p>
+                    <p>Campaign management and lead finding</p>
                   </li>
                   <li className="flex items-center font-heading mb-4 font-medium text-base text-gray-900">
                     <img
@@ -124,26 +124,31 @@ export default function Pricing() {
                       src="gradia-assets/elements/pricing/checkbox.svg"
                       alt=""
                     />
-                    <p>Real-time Analytics</p>
+                    <p>Follow up with all interested prospects</p>
                   </li>
+
                   <li className="flex items-center font-heading font-medium text-base text-gray-900">
                     <img
                       className="mr-2.5"
                       src="gradia-assets/elements/pricing/checkbox.svg"
                       alt=""
                     />
-                    <p>Premium Support</p>
+                    <p>Booked calls through your own calendar system</p>
                   </li>
                 </ul>
-                <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md">
-                  <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
-                  <div className="px-9 py-4 bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
-                    <p className="relative z-10 group-hover:text-gray-800">
-                      Join now
-                    </p>
-                  </div>
-                </button>
-                <p className="text-sm text-gray-500">No credit card required</p>
+                <p className="text-base text-center font-semibold mb-5 text-black">
+                  Perfect for most SEO Agencies
+                </p>
+                <div className="flex justify-center">
+                  <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md">
+                    <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
+                    <div className="px-9 py-4 bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
+                      <p className="relative z-10 group-hover:text-gray-800">
+                        Join now
+                      </p>
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -152,15 +157,15 @@ export default function Pricing() {
               <div className="flex flex-wrap justify-between border-b border-gray-800 pb-7 mb-7">
                 <div className="w-full xl:w-auto">
                   <h3 className="font-heading font-bold text-2xl text-white text-center">
-                    Do It Yourself
+                    Fully Automated
                   </h3>
                 </div>
                 <div className="w-full xl:w-auto">
                   <h3 className="mb-0.5 font-heading font-bold text-center text-2xl text-white">
-                    $197/m
+                    $997/m
                   </h3>
                   <p className="text-base text-center mt-5 text-white">
-                    Professional step by step training on:
+                    We take care of your sales process
                   </p>
                 </div>
               </div>
@@ -171,7 +176,7 @@ export default function Pricing() {
                     src="gradia-assets/elements/pricing/checkbox.svg"
                     alt=""
                   />
-                  <p>How to create & warm up new email accounts</p>
+                  <p>Our sales team will close new projects for you</p>
                 </li>
                 <li className="flex items-center font-heading mb-4 font-medium text-base text-white">
                   <img
@@ -179,7 +184,7 @@ export default function Pricing() {
                     src="gradia-assets/elements/pricing/checkbox.svg"
                     alt=""
                   />
-                  <p>Writing effective copy</p>
+                  <p>We'll manage the onboarding process</p>
                 </li>
                 <li className="flex items-center font-heading mb-4 font-medium text-base text-white">
                   <img
@@ -187,7 +192,7 @@ export default function Pricing() {
                     src="gradia-assets/elements/pricing/checkbox.svg"
                     alt=""
                   />
-                  <p>Finding new leads to target</p>
+                  <p>Monthly reports with results</p>
                 </li>
                 <li className="flex items-center font-heading font-medium text-base text-white">
                   <img
@@ -195,11 +200,11 @@ export default function Pricing() {
                     src="gradia-assets/elements/pricing/checkbox.svg"
                     alt=""
                   />
-                  <p>How to follow up and close interested leads</p>
+                  <p>Focus on your services</p>
                 </li>
               </ul>
               <p className="text-base text-center font-bold mb-5 text-white">
-                Plus, you'll have access to unlimited email support.
+                Grow your agency in the fastest possible way
               </p>
               <div className="flex justify-center">
                 <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
