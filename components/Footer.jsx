@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center h-full md:items-start">
               <img
                 className="w-[150px]"
-                src="gradia-assets/logos/gradia-name-black.svg"
+                src="gradia-assets/logos/logo.png"
                 alt=""
               />
             </div>

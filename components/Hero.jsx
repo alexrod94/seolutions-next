@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
-import MobileHeader from "../../components/MobileHeader";
+import Header from "./Header";
+import MobileHeader from "./MobileHeader";
 
 export default function Hero() {
   return (

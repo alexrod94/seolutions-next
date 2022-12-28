@@ -8,7 +8,11 @@ export default function Header() {
           <div className="flex flex-wrap items-center">
             <div className="w-auto mr-14">
               <Link href="/">
-                <img src="gradia-assets/logos/gradia-name-white.svg" alt="" />
+                <img
+                  src="gradia-assets/logos/logo-white.png"
+                  className="w-[150px]"
+                  alt=""
+                />
               </Link>
             </div>
           </div>
