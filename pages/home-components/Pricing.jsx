@@ -92,7 +92,7 @@ export default function Pricing() {
                       Managed Service
                     </h3>
                   </div>
-                  <div className="w-full xl:w-auto xl:text-right">
+                  <div className="w-full xl:w-auto text-center">
                     <h3 className="mb-0.5 font-heading font-bold text-2xl text-gray-900">
                       $597/m
                     </h3>
