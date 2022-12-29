@@ -36,14 +36,16 @@ export default function Intro() {
           </div>
           {/* Bullet points */}
           <div className="w-full flex flex-col items-center">
-            <ul>
+            <ul className="w-80 md:w-full">
               <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                 <img
                   className="mr-2"
                   src="gradia-assets/elements/hero/check.svg"
                   alt=""
                 />
-                <p>Stop paying dozens of dollars on advertising</p>
+                <p className="break-words">
+                  Stop paying dozens of dollars on advertising
+                </p>
               </li>
               <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                 <img
@@ -67,7 +69,7 @@ export default function Intro() {
             </ul>
           </div>
           {/* Second Section */}
-          <div className="flex items-center w-full mb-12">
+          <div className="flex items-center w-full mb-12 flex-col md:flex-row">
             <div className="w-full lg:w-1/2 p-6 items-center">
               <div className="bg-gradient-orange mx-auto max-w-lg h-96 rounded-3xl">
                 <img

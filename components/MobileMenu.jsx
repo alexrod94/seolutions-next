@@ -13,7 +13,7 @@ export default function MobileMenu({ closeMenu }) {
             <div className="flex items-center justify-between -m-2">
               <div className="w-auto p-2">
                 <a className="inline-block">
-                  <img src="gradia-assets/logos/gradia-name-black.svg" alt="" />
+                  <img src="gradia-assets/logos/logo.png" alt="" />
                 </a>
               </div>
               <div className="w-auto p-2">

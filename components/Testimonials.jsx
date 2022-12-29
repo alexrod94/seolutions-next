@@ -9,7 +9,7 @@ export default function Testimonials() {
       <div className="relative z-10 container mx-auto px-4">
         <div className="flex flex-wrap -m-6">
           <div className="w-full md:w-1/2 p-6">
-            <h2 className="mb-16 md:max-w-md md:ml-auto font-heading font-semibold text-5xl sm:text-6xl text-white">
+            <h2 className="mb-16 md:max-w-md md:ml-auto text-center md:text-left font-heading font-semibold text-5xl sm:text-6xl text-white">
               See what our customers have to say
             </h2>
             <div className="p-12 bg-white rounded-10">
