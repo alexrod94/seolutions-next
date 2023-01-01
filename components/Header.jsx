@@ -23,7 +23,7 @@ export default function Header() {
               <Link href="/">Start Here</Link>
             </li>
             <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
-              <Link href="/services">Services</Link>
+              <Link href="/#services">Services</Link>
             </li>
             <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
               <Link href="/contact">Contact</Link>

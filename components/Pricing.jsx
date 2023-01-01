@@ -1,6 +1,9 @@
 export default function Pricing() {
   return (
-    <section className="relative pt-24 pb-36 bg-black overflow-hidden">
+    <section
+      className="relative pt-24 pb-36 bg-black overflow-hidden"
+      id="services"
+    >
       <img
         className="absolute left-1/2 bottom-0 transform -translate-x-1/2"
         src="gradia-assets/elements/pricing/radial.svg"

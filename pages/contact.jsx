@@ -26,6 +26,17 @@ export default function contact() {
               qualified leads and close more deals with our proven system for
               finding and reaching out to potential clients.
             </p>
+            <p className="my-9 font-medium text-lg text-center text-white w-[80%] mx-auto">
+              Book a call with us and let's talk about your needs
+            </p>
+            <script src="https://asset-tidycal.b-cdn.net//js/embed.js"></script>
+            <div
+              id="tidycal-embed"
+              data-path="alexrod94/30-minutes-meeting"
+            ></div>
+            <p className="my-9 font-medium text-lg text-center text-white w-[80%] mx-auto">
+              Or send us a message and we'll be in touch soon
+            </p>
             <div className="flex justify-center flex-col items-center w-full">
               <div className="bg-white rounded-2xl p-8 w-[80%]">
                 <form method="POST" onSubmit={handleSubmit}>

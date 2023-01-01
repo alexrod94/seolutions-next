@@ -50,7 +50,7 @@ export default function MobileMenu({ closeMenu }) {
               <li className="mb-12">
                 <Link
                   className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                  href="/services"
+                  href="/#services"
                 >
                   Services
                 </Link>
