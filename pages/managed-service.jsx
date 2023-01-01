@@ -2,15 +2,15 @@ export default function ManagedService() {
   return (
     <>
       {/* Header */}
-      <section>
-        <div className="container mx-auto px-4">
+      <section className="bg-indigo-500">
+        <div className="container mx-auto px-4 ">
           <div className="flex flex-wrap items-center -m-6 py-16">
             <div className="w-full p-6 lg:w-2/3">
-              <div className="lg:max-w-xl">
-                <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-gray-900 font-bold text-center lg:text-left">
+              <div className="lg:max-w-4xl">
+                <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-white font-bold text-center lg:text-left lg:leading-tight">
                   Get 10+ Calls per Week with Potential Clients
                 </h1>
-                <p className="mb-9 text-gray-600 text-2xl text-center lg:text-left">
+                <p className="mb-9 text-white font-semibold text-2xl text-center lg:text-left">
                   For SEO Agency owners who are tired of seeing CPC cost rise
                   and struggle to fill their pipeline
                 </p>
@@ -19,7 +19,7 @@ export default function ManagedService() {
             <div className="w-full p-6 lg:w-1/3">
               <img
                 className="block mx-auto"
-                src="gradia-assets/images/hero/profiles.png"
+                src="gradia-assets/images/landing/calendar.jpg"
                 alt=""
               />
             </div>
@@ -27,7 +27,7 @@ export default function ManagedService() {
         </div>
       </section>
       {/* Intro */}
-      <section className="mx-auto lg:w-5/6 py-12">
+      <section className="mx-auto lg:w-5/6 py-24">
         <p className="mb-4 font-medium text-xl">Dear friend,</p>
 
         <p className="mb-4 font-medium text-xl">
