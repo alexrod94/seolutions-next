@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
   return (
     <section
@@ -75,14 +77,17 @@ export default function Pricing() {
                 Plus, you'll have access to unlimited email support.
               </p>
               <div className="flex justify-center">
-                <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                <Link
+                  className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
+                  href="/managed-service"
+                >
                   <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-black transition ease-in-out duration-500"></div>
                   <div className="px-9 py-4 bg-white hover:bg-gray-100 overflow-hidden rounded-md">
                     <p className="relative z-10 group-hover:text-white">
                       Join now
                     </p>
                   </div>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -143,14 +148,17 @@ export default function Pricing() {
                   Perfect for most SEO Agencies
                 </p>
                 <div className="flex justify-center">
-                  <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md">
+                  <Link
+                    className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md"
+                    href="/managed-service"
+                  >
                     <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
                     <div className="px-9 py-4 bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
                       <p className="relative z-10 group-hover:text-gray-800">
                         Join now
                       </p>
                     </div>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -210,14 +218,17 @@ export default function Pricing() {
                 Grow your agency in the fastest possible way
               </p>
               <div className="flex justify-center">
-                <button className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                <Link
+                  className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
+                  href="/managed-service"
+                >
                   <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-black transition ease-in-out duration-500"></div>
                   <div className="px-9 py-4 bg-white hover:bg-gray-100 overflow-hidden rounded-md">
                     <p className="relative z-10 group-hover:text-white">
                       Join now
                     </p>
                   </div>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,9 +1,11 @@
+import Testimonials from "../components/Testimonials";
+import Link from "next/link";
 export default function ManagedService() {
   return (
     <>
       {/* Header */}
-      <section className="bg-indigo-500">
-        <div className="container mx-auto px-4 ">
+      <section className="bg-indigo-500 box-border">
+        <div className="mx-auto px-4 ">
           <div className="flex flex-wrap items-center -m-6 py-16">
             <div className="w-full p-6 lg:w-2/3">
               <div className="lg:max-w-4xl">
@@ -16,7 +18,7 @@ export default function ManagedService() {
                 </p>
               </div>
             </div>
-            <div className="w-full p-6 lg:w-1/3">
+            <div className="p-6 lg:w-1/4 box-border">
               <img
                 className="block mx-auto"
                 src="gradia-assets/images/landing/calendar.jpg"
@@ -65,6 +67,16 @@ export default function ManagedService() {
           />
         </div>
       </section>
+      <div className="flex flex-row justify-center pb-12">
+        <Link
+          className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
+          href="https://tidycal.com/alexrod94/seo-lead-generation"
+        >
+          <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
+          <p className="relative z-10">Yes, I want this!</p>
+        </Link>
+      </div>
+      <Testimonials />
       {/* Objection */}
       <section className="bg-indigo-500">
         <div className="px-4 text-white font-semibold text-xl py-12">
@@ -90,10 +102,162 @@ export default function ManagedService() {
           </p>
         </div>
         <div className="flex flex-row justify-center pb-12">
-          <button className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md">
+          <Link
+            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
+            href="https://tidycal.com/alexrod94/seo-lead-generation"
+          >
             <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
             <p className="relative z-10">Yes, I want this!</p>
-          </button>
+          </Link>
+        </div>
+      </section>
+      {/* Guarantee */}
+      <section className="mx-auto px-4 py-12 flex flex-col lg:flex-row lg:justify-between lg:items-center">
+        <div id="right-col" className="lg:w-2/6">
+          <img
+            className="block mx-auto lg:w-3/4 lg:float-left"
+            src="gradia-assets/images/landing/email.jpg"
+            alt=""
+          />
+        </div>
+        <div id="left-col" className="lg:w-4/6">
+          <p className="mb-4 font-medium text-xl">
+            Within a short time, we will work with you, side-by-side to get your
+            lead generation efforts up and running. Once our campaigns are live,
+            you'll start seeing an increase in qualified leads and new business.
+            And we guarantee it.
+          </p>
+
+          <p className="mb-4 font-medium text-xl">
+            Over the past 5 years, we have generated leads for countless SEO
+            agencies and we know for a fact what works, and it'll work for you,
+            even if...
+          </p>
+
+          <ul className="mb-4 font-medium text-xl">
+            <li className="list-disc">You're new to the SEO industry</li>
+            <li className="list-disc">
+              You have an established SEO agency but are struggling to generate
+              leads
+            </li>
+            <li className="list-disc">
+              You don't have a lot of experience with email marketing and lead
+              generation
+            </li>
+            <li className="list-disc">
+              You don't have a lot of time to devote to lead generation efforts
+            </li>
+            <li className="list-disc">Technology doesn't interest you.</li>
+          </ul>
+
+          <p className="font-medium text-xl">
+            Let us handle the hard work of lead generation, so you can focus on
+            growing your business and delivering top-notch SEO services to your
+            clients. Contact us today to learn more.
+          </p>
+        </div>
+      </section>
+      <div className="flex flex-row justify-center pb-12">
+        <Link
+          className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
+          href="https://tidycal.com/alexrod94/seo-lead-generation"
+        >
+          <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
+          <p className="relative z-10">Yes, I want this!</p>
+        </Link>
+      </div>
+      {/* Features */}
+      <section className="bg-indigo-500">
+        <div className="px-4 text-white font-semibold text-xl py-12 mx-auto lg:w-5/6">
+          <h2 className="text-4xl mb-8 text-center">WHAT YOU WILL GAIN</h2>
+          <p className="mb-4">
+            With our lead generation service, you will have access to our team
+            of experts who will work with you to design and implement targeted
+            cold email campaigns to generate leads for your SEO agency.
+          </p>
+          <p className="mb-4">Features include:</p>
+          <ul className="mb-4 font-medium text-xl">
+            <li className="list-disc">
+              All the technical setup so you don't need to worry about anything
+            </li>
+            <li className="list-disc">
+              Customized emails designed to capture the attention of potential
+              clients
+            </li>
+            <li className="list-disc">
+              Targeted list of leads to ensure maximum efficiency of your
+              campaigns
+            </li>
+            <li className="list-disc">
+              24/7 personalized support via email from our team of marketers and
+              strategists
+            </li>
+            <li className="list-disc">
+              Detailed reports and analytics to track the performance of your
+              campaigns
+            </li>
+            <li className="list-disc">
+              Follow up with all interested prospects
+            </li>
+          </ul>
+          <p className="mb-4">
+            Pricing for our lead generation service starts at $597 per month,
+            with discounts available for longer commitments.
+          </p>
+          <p className="mb-4">
+            You only need to schedule a 30 minute consultation call where we can
+            answer any questions you have and discuss how our lead generation
+            service can help your SEO agency grow. No strings attached.
+          </p>
+        </div>
+        <div className="flex flex-row justify-center pb-12">
+          <Link
+            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
+            href="https://tidycal.com/alexrod94/seo-lead-generation"
+          >
+            <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
+            <p className="relative z-10">Yes, I want this!</p>
+          </Link>
+        </div>
+      </section>
+      {/* Guarantee */}
+      <section className="bg-white">
+        <div className="px-4 text-black font-semibold text-xl py-12 mx-auto lg:w-5/6">
+          <h2 className="text-4xl mb-8 text-center">
+            10 APPOINTMENTS/MONTH OR WE DON'T CHARGE YOU
+          </h2>
+          <p className="mb-4">
+            We are so confident in the effectiveness of our campaigns that we
+            offer a unique guarantee - if we don't get you at least 10 scheduled
+            appointments per month, you don't pay a dime.
+          </p>
+          <p className="mb-4">
+            That's right - you have nothing to lose and everything to gain. Our
+            team of experts will work with you to design and implement targeted
+            cold email campaigns that will help your business grow. And, if we
+            don't deliver on our promise, we'll continue working with you FOR
+            FREE until you get your 10 appointments.
+          </p>
+          <p className="mb-4">
+            Think about it. How much is a single client worth for your business?
+            And, how many clients could you close if you were having 10 new
+            appointments per month, or even per week?
+          </p>
+          <p className="mb-4">
+            Don't waste any more time and money on ineffective lead generation
+            methods. Let us handle the hard work for you and watch your business
+            thrive. Contact us today to learn more about our guarantee and how
+            we can help your business succeed.
+          </p>
+        </div>
+        <div className="flex flex-row justify-center pb-12">
+          <Link
+            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
+            href="https://tidycal.com/alexrod94/seo-lead-generation"
+          >
+            <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
+            <p className="relative z-10">Yes, I want this!</p>
+          </Link>
         </div>
       </section>
     </>
