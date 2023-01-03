@@ -224,7 +224,7 @@ export default function ManagedService() {
       <section className="bg-white">
         <div className="px-4 text-black font-semibold text-xl py-12 mx-auto lg:w-5/6">
           <h2 className="text-4xl mb-8 text-center">
-            10 APPOINTMENTS/MONTH OR WE DON'T CHARGE YOU
+            10 APPOINTMENTS / MONTH OR WE DON'T CHARGE YOU
           </h2>
           <p className="mb-4">
             We are so confident in the effectiveness of our campaigns that we

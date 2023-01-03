@@ -78,7 +78,7 @@ export default function Pricing() {
               </p>
               <div className="flex justify-center">
                 <Link
-                  className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
+                  className="group relative flex justify-center mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
                   href="/managed-service"
                 >
                   <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-black transition ease-in-out duration-500"></div>
@@ -149,7 +149,7 @@ export default function Pricing() {
                 </p>
                 <div className="flex justify-center">
                   <Link
-                    className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md"
+                    className="group relative flex justify-center mb-3 w-full md:w-auto font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md"
                     href="/managed-service"
                   >
                     <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
@@ -219,7 +219,7 @@ export default function Pricing() {
               </p>
               <div className="flex justify-center">
                 <Link
-                  className="group relative mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
+                  className="group relative flex justify-center mb-3 w-full md:w-auto font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
                   href="/managed-service"
                 >
                   <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-black transition ease-in-out duration-500"></div>
