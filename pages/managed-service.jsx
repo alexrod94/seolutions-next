@@ -1,230 +1,258 @@
 import Testimonials from "../components/Testimonials";
 import Link from "next/link";
+import BookACall from "../components/BookACall";
+import Objections from "../components/Objections";
 export default function ManagedService() {
   return (
     <>
       {/* Header */}
       <section className="bg-indigo-500 box-border">
         <div className="mx-auto px-4 ">
-          <div className="flex flex-wrap items-center -m-6 py-16">
-            <div className="w-full p-6 lg:w-2/3">
-              <div className="lg:max-w-4xl">
-                <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-white font-bold text-center lg:text-left lg:leading-tight">
-                  Get 10+ Calls per Week with Potential Clients
-                </h1>
-                <p className="mb-9 text-white font-semibold text-2xl text-center lg:text-left">
-                  For SEO Agency owners who are tired of seeing CPC cost rise
-                  and struggle to fill their pipeline
-                </p>
-              </div>
+          <div className="w-full p-6 lg:w-5/6 m-auto">
+            <div className="lg:max-w-4xl">
+              <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-white font-bold text-center lg:leading-tight">
+                "Get New Clients and Save Money on Ads With Our Cold Email
+                Service"
+              </h1>
+              <p className="my-9 text-white font-semibold text-2xl text-center">
+                For SEO agency owners who are looking to get more clients
+                without spending a fortune on ads, and want a better way to
+                grow.
+              </p>
             </div>
-            <div className="p-6 lg:w-1/4 box-border">
+          </div>
+          {/* <div className="p-6 lg:w-1/4 box-border">
               <img
                 className="block mx-auto"
                 src="gradia-assets/images/landing/calendar.jpg"
                 alt=""
               />
-            </div>
-          </div>
+            </div> */}
         </div>
       </section>
       {/* Intro */}
-      <section className="mx-auto px-4 py-24 flex flex-col lg:flex-row lg:items-center">
+      <section className="mx-auto px-4 py-12 pb-12 flex flex-col-reverse items-center">
         <div id="left-col" className="lg:w-5/6 lg:pr-2">
           <p className="mb-4 font-medium text-xl">Dear friend,</p>
           <p className="mb-4 font-medium text-xl">
-            Are you tired of struggling to generate leads for your SEO agency
-            through traditional means? Do you wish there was a way to reach
-            potential clients without the hassle of cold calling or the expense
-            of advertising?
+            It used to be very easy to get new clients with ads: pay a hefty fee
+            and get guaranteed leads, easy as that.
           </p>
 
           <p className="mb-4 font-medium text-xl">
-            At our agency, we specialize in generating leads for SEO agencies
-            through targeted cold email campaigns. With our expertise and
-            resources, we can help you tap into the vast potential of the
-            internet to grow your business.
+            But times have changed and now it's become increasingly difficult to
+            get new clients using ads alone. People have become wary of SEO, and
+            it's become more and more expensive to get new leads.
           </p>
 
           <p className="mb-4 font-medium text-xl">
-            Don't waste any more time and effort on ineffective lead generation
-            strategies. Let us handle the hard work for you, so you can focus on
-            what you do best - delivering top-notch SEO services to your
-            clients.
+            We've even worked with some clients who were paying up to{" "}
+            <span className="font-bold">$20 per click</span>, which is kind of
+            insane.
           </p>
 
+          <p className="mb-4 font-medium text-xl">
+            Think about it. Why pay exorbitant prices for ads when you you're
+            not even sure if they'll be effective? And truth is, ads just aren't
+            that reliable anymore.
+          </p>
+          <p className="mb-4 font-medium text-xl">
+            What about Facebook Ads? Sure, they can be effective. But the thing
+            is, you have no control over who's seeing your ads and whether or
+            not they're converting into leads. Plus, the changes on the
+            algorithm can quickly make your campaigns obsolete.
+          </p>
+          <p className="mb-4 font-medium text-xl">
+            So, what can you do? Just cross your fingers and hope for the best?
+          </p>
           <p className="font-medium text-xl">
-            Imagine having a consistent flow of qualified leads coming in,
-            without the stress of trying to generate them yourself. With our
-            lead generation services, this can be a reality for your business.
+            Luckily, there's an alternative: using cold emails to get new
+            clients for your SEO agency.
           </p>
         </div>
-        <div id="right-col" className="lg:w-1/6">
+        <div id="right-col" className="mb-9 lg:w-2/6">
           <img
             className="block mx-auto"
             src="gradia-assets/images/landing/hero.jpeg"
             alt=""
           />
+          <p className="text-center text-md mt-3">
+            From the desk of Alex Puerta, Madrid
+          </p>
         </div>
       </section>
-      <div className="flex flex-row justify-center pb-12">
-        <Link
-          className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
-          href="https://tidycal.com/alexrod94/seo-lead-generation"
-        >
-          <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
-          <p className="relative z-10">Yes, I want this!</p>
-        </Link>
-      </div>
+      <BookACall />
+
       <Testimonials />
-      {/* Objection */}
+      {/* Our Service */}
+      <section className="mx-auto px-4 py-12 pb-6 flex flex-col items-center">
+        <div id="left-col" className="lg:w-5/6">
+          <h2 className="mb-6 font-heading text-4xl md:text-6xl xl:text-8xl text-black font-bold text-center lg:leading-tight">
+            Get the leads you want with our cold email services
+          </h2>
+          <p className="mb-4 font-medium text-xl">
+            Are you an SEO agency owner who's looking to get more clients
+            without spending a fortune on ads? If so, then our cold email
+            service is the perfect solution for you. With our service, you can
+            save money on expensive ads while still getting the leads that you
+            need.
+          </p>
+          <p className="mb-4 font-medium text-xl">
+            Here's how you can improve your situation when you use cold email to
+            reach out to new clients:
+          </p>
+          <div className="w-full flex flex-col items-center">
+            <ul className="w-80 md:w-full">
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p className="break-words">
+                  Save time and money by getting leads through email.
+                </p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>Get more clients without relying on ads or word of mouth.</p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>
+                  Quick, easy setup that's affordable for any business size.
+                </p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>
+                  Personalized service to help you get the most out of your lead
+                  generation.
+                </p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>
+                  Send customized messages that are relevant to the prospect's
+                  needs and that they'll love to read.
+                </p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>Scale your business with little effort.</p>
+              </li>
+              <li className="mb-4 flex items-center font-heading font-semibold text-xl text-black mb-12">
+                <img
+                  className="mr-2"
+                  src="gradia-assets/elements/hero/check.svg"
+                  alt=""
+                />
+                <p>
+                  Avoid getting flagged as spam thanks to our unique method and
+                  software.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <BookACall />
+        </div>
+      </section>
+      {/* How does it work */}
       <section className="bg-indigo-500">
-        <div className="px-4 text-white font-semibold text-xl py-12">
-          <p className="mb-4">I know what you might be thinking…</p>
+        <div className="px-4 text-white font-semibold text-xl py-12 flex flex-col w-5/6 justify-center mx-auto">
+          <h2 className="mb-6 font-heading text-4xl md:text-6xl xl:text-8xl text-white font-bold text-center lg:leading-tight">
+            How does our cold email service work?
+          </h2>
           <p className="mb-4">
-            "Yes, a consistent flow of qualified leads would be great, but I
-            don't know where to start!"
+            Our cold email service offers a comprehensive suite of tools and
+            services to help SEO agencies in their outreach efforts. We will set
+            up all the necessary setup for accounts and campaigns, as well as
+            lead finding to ensure that your outreach is always targeted to the
+            right people.
           </p>
           <p className="mb-4">
-            No problem. We'll help you every step of the way. With our expertise
-            and resources, we have all it takes to get your SEO agency to the
-            level you desire.
+            Our team can also take care of follow up with any interested
+            prospects, allowing you more time to focus on growing your business.
           </p>
           <p className="mb-4">
-            We'll take care of all the process of generating leads through
-            targeted cold email campaigns, so you can focus on what you do best
-            - providing top-notch SEO services to your clients.
+            In addition, our cold emailing service provides the ability to book
+            calls directly through your calendar system, so that you don't have
+            to worry about scheduling or miss any important appointments. We
+            also use advanced analytics and data tracking to ensure that all
+            emails sent are as effective as possible, giving you the most bang
+            for your buck out of every campaign.
           </p>
           <p>
-            Let us take the burden of lead generation off your shoulders, so you
-            can have a steady stream of new business coming in with as little
-            work as possible.
+            Through our cold email service, you will be able to save time and
+            money while continuing to strengthen your relationships with your
+            clients and make your SEO agency grow.
           </p>
         </div>
-        <div className="flex flex-row justify-center pb-12">
-          <Link
-            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
-            href="https://tidycal.com/alexrod94/seo-lead-generation"
-          >
-            <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
-            <p className="relative z-10">Yes, I want this!</p>
-          </Link>
-        </div>
+        <BookACall />
       </section>
-      {/* Guarantee */}
-      <section className="mx-auto px-4 py-12 flex flex-col lg:flex-row lg:justify-between lg:items-center">
-        <div id="right-col" className="lg:w-2/6">
-          <img
-            className="block mx-auto lg:w-3/4 lg:float-left"
-            src="gradia-assets/images/landing/email.jpg"
-            alt=""
-          />
-        </div>
-        <div id="left-col" className="lg:w-4/6">
-          <p className="mb-4 font-medium text-xl">
-            Within a short time, we will work with you, side-by-side to get your
-            lead generation efforts up and running. Once our campaigns are live,
-            you'll start seeing an increase in qualified leads and new business.
-            And we guarantee it.
-          </p>
-
-          <p className="mb-4 font-medium text-xl">
-            Over the past 5 years, we have generated leads for countless SEO
-            agencies and we know for a fact what works, and it'll work for you,
-            even if...
-          </p>
-
-          <ul className="mb-4 font-medium text-xl">
-            <li className="list-disc">You're new to the SEO industry</li>
-            <li className="list-disc">
-              You have an established SEO agency but are struggling to generate
-              leads
-            </li>
-            <li className="list-disc">
-              You don't have a lot of experience with email marketing and lead
-              generation
-            </li>
-            <li className="list-disc">
-              You don't have a lot of time to devote to lead generation efforts
-            </li>
-            <li className="list-disc">Technology doesn't interest you.</li>
-          </ul>
-
-          <p className="font-medium text-xl">
-            Let us handle the hard work of lead generation, so you can focus on
-            growing your business and delivering top-notch SEO services to your
-            clients. Contact us today to learn more.
-          </p>
-        </div>
-      </section>
-      <div className="flex flex-row justify-center pb-12">
-        <Link
-          className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
-          href="https://tidycal.com/alexrod94/seo-lead-generation"
-        >
-          <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
-          <p className="relative z-10">Yes, I want this!</p>
-        </Link>
-      </div>
-      {/* Features */}
+      <Objections />
+      {/* Scarcity */}
       <section className="bg-indigo-500">
-        <div className="px-4 text-white font-semibold text-xl py-12 mx-auto lg:w-5/6">
-          <h2 className="text-4xl mb-8 text-center">WHAT YOU WILL GAIN</h2>
+        <div className="px-4 text-white font-semibold text-xl py-12 flex flex-col w-5/6 justify-center mx-auto">
+          <h2 className="mb-6 font-heading text-4xl md:text-6xl xl:text-8xl text-white font-bold text-center lg:leading-tight">
+            Book a call with us - Limited time only
+          </h2>
           <p className="mb-4">
-            With our lead generation service, you will have access to our team
-            of experts who will work with you to design and implement targeted
-            cold email campaigns to generate leads for your SEO agency.
-          </p>
-          <p className="mb-4">Features include:</p>
-          <ul className="mb-4 font-medium text-xl">
-            <li className="list-disc">
-              All the technical setup so you don't need to worry about anything
-            </li>
-            <li className="list-disc">
-              Customized emails designed to capture the attention of potential
-              clients
-            </li>
-            <li className="list-disc">
-              Targeted list of leads to ensure maximum efficiency of your
-              campaigns
-            </li>
-            <li className="list-disc">
-              24/7 personalized support via email from our team of marketers and
-              strategists
-            </li>
-            <li className="list-disc">
-              Detailed reports and analytics to track the performance of your
-              campaigns
-            </li>
-            <li className="list-disc">
-              Follow up with all interested prospects
-            </li>
-          </ul>
-          <p className="mb-4">
-            Pricing for our lead generation service starts at $597 per month,
-            with discounts available for longer commitments.
+            At SEO Leads Finder, we understand that so many SEO agencies are
+            wasting money on ads and looking for a better way to get new
+            clients, and we want to help you. That’s why we offer cold email
+            services, but with one caveat: we work manually with each one of our
+            clients, and because of that, we can only onboard a limited number
+            of customers at a time.
           </p>
           <p className="mb-4">
-            You only need to schedule a 30 minute consultation call where we can
-            answer any questions you have and discuss how our lead generation
-            service can help your SEO agency grow. No strings attached.
+            Artisanal work is the name of the game in this case, as it allows us
+            to ensure that each and every customer gets their needs addressed
+            individually and receives the personalized attention they deserve.
+            As a result, this also means that our resources are confined to how
+            many people we can reasonably handle at any given moment.
+          </p>
+          <p className="mb-4">
+            By working with a limited number of customers at once, we're able to
+            guarantee maximum results for everyone involved. We believe this is
+            the best way to make sure all our clients reach their goals without
+            having to compromise quality or results.
+          </p>
+          <p>
+            We're currently opening up five slots for our Managed Service, so if
+            you're interested in getting started, you should book a call with us
+            today. Our team is ready to help you get new business oportunities
+            through cold emailing and make the most of your time, money and
+            resources. Contact us now and let's get started!
           </p>
         </div>
-        <div className="flex flex-row justify-center pb-12">
-          <Link
-            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
-            href="https://tidycal.com/alexrod94/seo-lead-generation"
-          >
-            <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
-            <p className="relative z-10">Yes, I want this!</p>
-          </Link>
-        </div>
+        <BookACall />
       </section>
       {/* Guarantee */}
       <section className="bg-white">
         <div className="px-4 text-black font-semibold text-xl py-12 mx-auto lg:w-5/6">
-          <h2 className="text-4xl mb-8 text-center">
-            10 APPOINTMENTS / MONTH OR WE DON'T CHARGE YOU
+          <h2 className="mb-6 font-heading text-4xl md:text-6xl xl:text-8xl text-black font-bold text-center lg:leading-tight">
+            10 appointments / month or you don't pay!
           </h2>
           <p className="mb-4">
             We are so confident in the effectiveness of our campaigns that we
@@ -250,15 +278,7 @@ export default function ManagedService() {
             we can help your business succeed.
           </p>
         </div>
-        <div className="flex flex-row justify-center pb-12">
-          <Link
-            className="group relative font-heading px-6 py-5 w-full lg:w-1/4 uppercase text-white text-xs font-semibold tracking-px bg-gray-900 hover:bg-gray-800 overflow-hidden rounded-md flex justify-center"
-            href="https://tidycal.com/alexrod94/seo-lead-generation"
-          >
-            <div className="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-indigo-400"></div>
-            <p className="relative z-10">Yes, I want this!</p>
-          </Link>
-        </div>
+        <BookACall />
       </section>
     </>
   );

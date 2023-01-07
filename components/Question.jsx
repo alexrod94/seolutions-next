@@ -8,8 +8,8 @@ export default function Question({ question, answer }) {
       onClick={() => (open ? setOpen(false) : setOpen(true))}
     >
       <div className="pb-0.5 bg-gradient-cyan">
-        <div className="py-3.5 px-5 bg-white">
-          <div className="flex flex-wrap justify-between -m-2">
+        <div className="py-3.5 px-5 bg-white bg-gray-200 rounded my-1">
+          <div className="flex flex-wrap justify-between items-start -m-2">
             <div className="flex-1 p-2">
               <p className="mb-5 font-heading font-semibold text-lg text-gray-900">
                 {question}
