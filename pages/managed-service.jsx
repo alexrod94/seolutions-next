@@ -7,28 +7,25 @@ export default function ManagedService() {
     <>
       {/* Header */}
       <section className="bg-indigo-500 box-border">
-        <div className="mx-auto px-4 ">
-          <div className="w-full p-6 lg:w-5/6 m-auto">
-            <div className="lg:max-w-4xl">
-              <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-white font-bold text-center lg:leading-tight">
-                "Get New Clients and Save Money on Ads With Our Cold Email
-                Service"
-              </h1>
-              <p className="my-9 text-white font-semibold text-2xl text-center">
-                For SEO agency owners who are looking to get more clients
-                without spending a fortune on ads, and want a better way to
-                grow.
-              </p>
-            </div>
+        <div className="mx-auto">
+          <div className="w-full p-6 mx-auto flex flex-col justify-center lg:w-5/6">
+            <h1 className="mb-6 font-heading text-7xl md:text-10xl xl:text-12xl text-white font-bold text-center lg:leading-tight">
+              "Get New Clients and Save Money on Ads With Our Cold Email
+              Service"
+            </h1>
+            <p className="my-9 text-white font-semibold text-2xl text-center">
+              For SEO agency owners who are looking to get more clients without
+              spending a fortune on ads, and want a better way to grow.
+            </p>
           </div>
-          {/* <div className="p-6 lg:w-1/4 box-border">
+        </div>
+        {/* <div className="p-6 lg:w-1/4 box-border">
               <img
                 className="block mx-auto"
                 src="gradia-assets/images/landing/calendar.jpg"
                 alt=""
               />
             </div> */}
-        </div>
       </section>
       {/* Intro */}
       <section className="mx-auto px-4 py-12 pb-12 flex flex-col-reverse items-center">
